@@ -1,0 +1,12 @@
+# GitHub Copilot App Configuration
+# Grants permissions for Copilot agents to work with pull requests and code
+
+permissions:
+  # Pull request permissions
+  pull_requests: write
+  # Code content permissions
+  contents: write
+  # Issue permissions
+  issues: read
+  # Workflow permissions (for CI/CD integration)
+  workflows: read
